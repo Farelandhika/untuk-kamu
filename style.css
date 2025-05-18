@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #e604e2, #ee9ca7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    color: #ffbcf2;
+
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(192, 9, 168);
+    border: none;
+    border-radius: 30px;
+    color: antiquewhite;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background-color: #e91e63;
+}
+#love-message {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
